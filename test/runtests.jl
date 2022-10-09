@@ -10,9 +10,13 @@ verbose = true
 output_files = false
 use_λ = false
 
-B = [5, 4, 4]
-W = [2, 2, 2, 2, 2, 2, 1]
-F = [3, 3, 3, 2, 2]
+#B = [5, 4, 4]
+#W = [2, 2, 2, 2, 2, 2, 1]
+#F = [3, 3, 3, 2, 2]
+
+B = [3, 3]
+W = [2, 2, 1, 1]
+F = [5, 1]
 
 b_dist_val = 0 + 0im
 w_dist_val = -1 + 0im
@@ -42,6 +46,6 @@ solutions = BelyiMapper.generate_dessin(
 
 display(solutions)
 
-@test size(solutions)[1] == 6
+@test size(solutions)[1] == 1
 
 println("Test passed.")
