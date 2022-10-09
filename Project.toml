@@ -1,0 +1,11 @@
+name = "BelyiMapper"
+uuid = "298c0ef0-a003-472a-9361-3a0502b1a905"
+authors = ["Alun Cennyth Stokes <stokea1@mcmaster.ca>"]
+version = "0.1.0"
+
+[deps]
+Formatting = "59287772-0a20-5a39-b81b-1366585eb4c0"
+HomotopyContinuation = "f213a82b-91d6-5c5d-acf7-10f1c761b327"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
+TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
